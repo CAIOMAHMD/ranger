@@ -1,11 +1,11 @@
 nodes:
-  - address: 34.245.124.229
+  - address: ec2-52-49-113-31.eu-west-1.compute.amazonaws.com
     user: ubuntu
     role: [controlplane, worker, etcd]
-  - address: 52.209.172.37
+  - address: ec2-3-249-223-186.eu-west-1.compute.amazonaws.com
     user: ubuntu
     role: [controlplane, worker, etcd]
-  - address: 34.244.168.102
+  - address: ec2-46-137-5-51.eu-west-1.compute.amazonaws.com
     user: ubuntu
     role: [controlplane, worker, etcd]
 
